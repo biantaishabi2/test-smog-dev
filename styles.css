@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+    background-color: #1a202c;
+    color: #a0aec0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.header {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.main {
+    margin: 2em 0;
+}
+
+.footer {
+    padding: 2em 0;
+    text-align: center;
+    background-color: #2d3748;
+    color: #a0aec0;
+}
+
+@media (min-width: 640px) {
+    .container {
+        padding: 0;
+    }
+}
